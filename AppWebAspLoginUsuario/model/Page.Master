@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Page.master.cs" Inherits="AppWebAspLoginUsuario.Page" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="/lib/css/StyleSheet.css">
+</head>
+<body>
+    <div class="sidenav">
+
+        <img id="logo_visualstudio" src="/lib/img/pngwing.com.png" />
+
+        <a href="Home.aspx">Home</a>
+        <a href="Calculadora.aspx">Calculadora</a>
+        <a href="/view/Login.aspx">Login</a>
+        <a href="/view/Register.aspx">Register</a>
+        <a href="/view/Dashboard.aspx">Dash Board</a>
+
+        <a href="Dashboard.aspx">Logout</a>
+    </div>
+
+
+
+    <form id="form1" runat="server">
+        <div class="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
